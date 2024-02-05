@@ -1,0 +1,81 @@
+ * {
+  padding: 0;
+  margin: 0;
+  max-width: 1200px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+ }
+
+ body {
+  margin: auto;
+  width: 50%;
+ }
+
+ h1 {
+  margin: 30px;
+ }
+
+
+
+ form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+ }
+
+ select, input, button {
+  margin: 10px 1px;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 400;
+  border: solid 1px ;
+
+ }
+
+button {
+
+  padding: 0 5px;
+  font-size: 0.5em;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgb(241, 183, 183);
+  padding: 5px;
+}
+
+button:active {
+  background-color: aliceblue
+}
+
+select {
+  width: 70%;
+  text-align: center;
+  padding: 5px;
+}
+
+
+input {
+  max-width: 20%;
+  background-color: aliceblue;
+  /* border: none; */
+  border-radius: 5px;
+
+}
+
+ .color-box, .hex-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+ }
+
+ .color-rainbow {
+  height: 250px;
+  /* background-color: gray; */
+
+ }

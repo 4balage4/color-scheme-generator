@@ -1,0 +1,11 @@
+Scrimba solo project
+
+- Choose 'seed color' with an <input type='color'/>
+
+- choose color scheme mode in a <select> box
+
+- clicking button makes request to the color API to get a color scheme
+
+- display the scheme colors and hex values on the page
+
+- stretch goal: click hex values to copy to clipboard.

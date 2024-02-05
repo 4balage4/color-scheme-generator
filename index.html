@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Scheme Generator</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <!-- I create the basic html. With every info -->
+    <h1>Color Scheme Generator</h1>
+
+    <form >
+       <input type='color' id="color">
+        <select  id="mode">
+          <option>monochrome</option>
+          <option>monochrome-dark</option>
+          <option>monochrome-light</option>
+          <option>analogic</option>
+          <option>complement </option>
+          <option>analogic-complement</option>
+          <option>triad</option>
+          <option>quad</option>
+        </select>
+        <button>get a scheme</button>
+    </form>
+
+    <div class="color-box">
+      <!-- here definetly the code of the colors will be generated.
+      this is just a placeholder. There will be a  -->
+       <div class="color-rainbow"></div>
+       <div class="color-rainbow"></div>
+       <div class="color-rainbow"></div>
+       <div class="color-rainbow"></div>
+       <div class="color-rainbow"></div>
+      </div>
+      <div class="hex-box">
+       <div class="hex-value"></div>
+       <div class="hex-value"></div>
+       <div class="hex-value"></div>
+       <div class="hex-value"></div>
+       <div class="hex-value"></div>
+        </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
