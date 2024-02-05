@@ -5,6 +5,8 @@ Wrote it to practice the work with different api's. This excercise was part of a
 
 javascript, css, html
 
+I built in a function for copying the hex values to the clipboard. 
+
 for the api I used:
 https://www.thecolorapi.com/
 
